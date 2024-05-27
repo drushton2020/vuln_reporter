@@ -1,3 +1,7 @@
 venv/
 __pycache__/
 *.pyc
+exports/
+Nessus-File-Format.pdf
+reports/
+parsed/
