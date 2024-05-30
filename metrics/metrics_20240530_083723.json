@@ -1,0 +1,50 @@
+{
+    "total_vulnerabilities": 9,
+    "unique_critical_vulnerabilities": 3,
+    "percentage_critical_vulnerabilities": 33.33333333333333,
+    "affected_assets": 1,
+    "high_risk_assets_count": 0,
+    "severity_counts": {
+        "2": 4,
+        "3": 2,
+        "4": 3
+    },
+    "vulnerabilities_by_type": [
+        {
+            "pluginFamily": "MacOS X Local Security Checks",
+            "count": 8
+        },
+        {
+            "pluginFamily": "General",
+            "count": 1
+        }
+    ],
+    "top_affected_assets": [
+        {
+            "asset_ip": "192.168.0.4",
+            "vuln_count": 9
+        }
+    ],
+    "common_vulnerabilities": [
+        {
+            "pluginName": "macOS 14.x < 14.1.2 Multiple Vulnerabilities (HT214032)",
+            "count": 1
+        },
+        {
+            "pluginName": "macOS 14.x < 14.2.1 (HT214048)",
+            "count": 1
+        },
+        {
+            "pluginName": "macOS 14.x < 14.2 Multiple Vulnerabilities (HT214036)",
+            "count": 1
+        },
+        {
+            "pluginName": "macOS 14.x < 14.3 Multiple Vulnerabilities (HT214061)",
+            "count": 1
+        },
+        {
+            "pluginName": "macOS 14.x < 14.5 Multiple Vulnerabilities (HT214106)",
+            "count": 1
+        }
+    ]
+}
