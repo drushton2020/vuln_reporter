@@ -254,7 +254,7 @@ def validate_dataframes(metadata_df, assets_df, vulnerabilities_df, policy_df, s
 # Example usage
 if __name__ == "__main__":
     try:
-        nessus_file_path = '../exports/nessus_small.nessus'
+        nessus_file_path = '../exports/david_home.nessus'
         metadata_df, assets_df, vulnerabilities_df, policy = parse_nessus_file(nessus_file_path)
 
         # Unpack policy dataframes
