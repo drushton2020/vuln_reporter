@@ -110,7 +110,7 @@ def save_metrics(metrics, directory='../metrics'):
 if __name__ == "__main__":
     try:
         # Path to the Nessus file
-        nessus_file_path = '../exports/david_home.nessus'
+        nessus_file_path = '../exports/nessus_medium.nessus'
 
         # Parse the Nessus file
         metadata_df, assets_df, vulnerabilities_df, policy = parse_nessus_file(nessus_file_path)

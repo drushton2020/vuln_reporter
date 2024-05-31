@@ -1,0 +1,99 @@
+{
+    "total_vulnerabilities": 5784,
+    "unique_critical_vulnerabilities": 334,
+    "percentage_critical_vulnerabilities": 6.708160442600277,
+    "affected_assets": 127,
+    "high_risk_assets_count": 19,
+    "severity_counts": {
+        "1": 899,
+        "2": 2702,
+        "3": 1795,
+        "4": 388
+    },
+    "vulnerabilities_by_type": [
+        {
+            "pluginFamily": "General",
+            "count": 2632
+        },
+        {
+            "pluginFamily": "Windows",
+            "count": 1479
+        },
+        {
+            "pluginFamily": "Windows : Microsoft Bulletins",
+            "count": 790
+        },
+        {
+            "pluginFamily": "Misc.",
+            "count": 482
+        },
+        {
+            "pluginFamily": "Service detection",
+            "count": 260
+        },
+        {
+            "pluginFamily": "Web Servers",
+            "count": 117
+        },
+        {
+            "pluginFamily": "CGI abuses",
+            "count": 16
+        },
+        {
+            "pluginFamily": "Databases",
+            "count": 3
+        },
+        {
+            "pluginFamily": "DNS",
+            "count": 3
+        },
+        {
+            "pluginFamily": "SNMP",
+            "count": 2
+        }
+    ],
+    "top_affected_assets": [
+        {
+            "asset_ip": "NWMON01.nw.internal",
+            "vuln_count": 488
+        },
+        {
+            "asset_ip": "nwbak02.nw.internal",
+            "vuln_count": 249
+        },
+        {
+            "asset_ip": "nwsvnpc.nw.internal",
+            "vuln_count": 207
+        },
+        {
+            "asset_ip": "nwmail01.nw.internal",
+            "vuln_count": 204
+        },
+        {
+            "asset_ip": "nwappdev.nw.internal",
+            "vuln_count": 135
+        }
+    ],
+    "common_vulnerabilities": [
+        {
+            "pluginName": "SSL Certificate Cannot Be Trusted",
+            "count": 491
+        },
+        {
+            "pluginName": "SSL Self-Signed Certificate",
+            "count": 429
+        },
+        {
+            "pluginName": "SSL Medium Strength Cipher Suites Supported",
+            "count": 379
+        },
+        {
+            "pluginName": "SSL RC4 Cipher Suites Supported (Bar Mitzvah)",
+            "count": 353
+        },
+        {
+            "pluginName": "SSL Certificate with Wrong Hostname",
+            "count": 266
+        }
+    ]
+}
